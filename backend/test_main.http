@@ -1,0 +1,28 @@
+POST http://localhost:80/api/item
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="field-name"; filename="file.txt"
+
+< ./relative/path/to/local_file.txt
+--WebAppBoundary--
+
+###
+POST http://localhost:5000/toxicComment/commentClass
+Content-Type: application/json
+
+{    "comment": "This is a toxic comment"}
+
+###
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:5000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:5000/hello/User
+Accept: application/json
+
+
+###

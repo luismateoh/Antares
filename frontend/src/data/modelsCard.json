@@ -1,0 +1,36 @@
+[
+    {
+        "key": "1",
+        "unsplashId": "xXbQIrWH2_A",
+        "title": "Toxic Comments",
+        "tags": [
+            "PNL",
+            "Comments",
+            "Classification"
+        ],
+        "route": "/toxicComments"
+    },
+    {
+        "key": "2",
+        "unsplashId": "qplKfNIP_5g",
+        "title": "Fruit or Vegetable",
+        "tags": [
+            "CNN",
+            "Images",
+            "Classification"
+        ],
+        "route": "/fruitsorvegetables"
+    },
+    {
+        "key": "3",
+        "unsplashId": "UbJMy92p8wk",
+        "title": "Eyes",
+        "tags": [
+            "CNN",
+            "Images",
+            "Classification"
+        ],
+        "route": "/eyes"
+
+    }
+]

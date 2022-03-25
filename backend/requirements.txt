@@ -1,0 +1,21 @@
+################################################################
+# Basic packages used in many of the tutorials.
+pandas
+numpy
+
+################################################################
+# Api packages
+fastapi~=0.63.0
+flake8~=3.8.4
+loguru~=0.5.3
+uvicorn~=0.13.4
+pydantic~=1.8.2
+
+################################################################
+# TensorFlow  and above include both CPU and GPU versions.
+tensorflow
+
+################################################################
+# For images
+python-multipart~=0.0.5
+pillow~=9.0.1
