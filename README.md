@@ -3,6 +3,8 @@
 
 This application is intended to serve as an example of an implementation of a model trained with machine learning and deployed in a production environment.
 
+:blue_book: [Review of the model, and the process](https://luismateoh.notion.site/Fruits-and-Vegetables-750fff485122495c8b8a5614021e7714)
+
 
 ## Screenshots
 
